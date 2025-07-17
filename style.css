@@ -1,0 +1,299 @@
+/* REUSABLE STYLES */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+    font-size: 1.8rem;
+    color: #0b232d;
+    font-weight: 400;
+    
+}
+.container{
+    max-width: 130rem;
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 6.4rem;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.margin-bottom{
+margin-bottom: 9.6rem !important;
+}
+.margin-bottom-sml{
+    margin-bottom: 2.4rem !important;
+}
+.align-left{
+    text-align: start !important;
+}
+.align-right{
+    text-align: end;
+}
+.subtext{
+    color:#37AFE1;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 6.4rem;
+}
+
+
+/* NAV SECTION */
+.section-nav{
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 4.8rem 0 9.6rem 0;
+}
+.section-nav a:link, .section-nav a:visited {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.section-nav a:hover, .section-nav a:active{
+    color: #37AFE1;
+}
+
+
+/* HERO SECTION */
+.section-hero .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.section-hero .grid .text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 80%;
+}
+
+.section-hero .grid .text-box h2{
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 4.8rem;
+    color:#37AFE1;
+}
+.section-hero .grid .text-box p{
+    line-height: 1.6;
+    margin-bottom: 6.4rem;
+}
+.section-hero .grid .text-box a:link, .section-hero .grid .text-box a:visited{
+    text-decoration: none;
+    background-color: #37AFE1;
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    color: #ebf7fc;
+    font-weight: 600;
+    font-size: 2rem;
+    transition: all 0.3s;
+}
+.section-hero .grid .text-box a:hover, .section-hero .grid .text-box a:active{
+background-color: #5fbfe7;
+color: #fff;
+}
+.section-hero .grid .img-box img{
+    border-radius: 11px;
+}
+
+/* ABOUT ME PAGE */
+
+.section-about--grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 9.6rem;
+    margin-bottom: 9.6rem;
+}
+.section-about--grid div{
+    box-shadow: 0px 0px 10px 5px rgb(55, 175, 225, 0.1);
+}
+.section-about--grid div:hover{
+box-shadow: 0px 0px 10px 5px rgb(55, 175, 225, 0.15);
+transform: translateY(-5px);
+}
+.section-about--grid h2{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+    text-align: center;
+}
+.section-about--grid p{
+    text-align: center;
+    padding: 0 2.4rem 4.8rem 2.4rem;
+}
+.section-about--grid img{
+    max-width: 100%;
+    margin-bottom: 4.8rem;
+}
+
+/* HOW I WORK PAGE */
+.section-how-i-work{
+    margin-bottom: 9.6rem;
+}
+.section-how-i-work p{
+text-align: center;
+margin-bottom: 2.4rem;
+}
+.section-how-i-work h2{
+    text-align: center;
+    margin-bottom: 4.8rem;
+    text-transform: uppercase;
+}
+.section-how-i-work h3{
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+.banner-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 9.6rem;
+}
+
+/* EXPERIENCE SECTION */
+.section-experience .section-container{
+    display: flex;
+    margin-bottom: 9.6rem;
+    gap: 9.6rem;
+    align-items: center;
+}
+.section-experience img{
+    max-width: 70rem;
+    border-radius: 11px;
+}
+.section-experience .text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.section-experience .text-box h2{
+    font-size: 4.8rem;
+}
+.section-experience .text-box h3{
+    color:#37AFE1;
+}
+
+/* OUTSIDE WORK SECTION */
+.outside-work-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    margin-bottom: 9.6rem;
+    align-items: center;
+}
+.outside-work-grid .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.outside-work-grid .gallery img{
+    max-width: 100%;
+    border: 3px solid #fff;
+}
+.outside-work-grid .gallery img:hover{
+    transform: scale(1.01);
+}
+.outside-work-grid .text-box h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
+.outside-work-grid .text-box .text-line h3{
+    color: #37AFE1;
+    margin-bottom: 1.6rem;
+}
+.outside-work-grid .text-box .text-line p{
+    margin-bottom: 2.4rem;
+}
+
+/* SDLC SECTION */
+
+.flexbox-one{
+    display: flex;
+    gap: 2.4rem;
+    justify-content: center;
+    margin-bottom: 4.8rem;
+}
+.flexbox-two{
+    display: flex;
+    gap: 2.4rem;
+    justify-content: center;
+}
+.section-sdlc .icon-box{
+    display: flex;
+    flex-direction:column;
+    gap: 2.4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2.4rem;
+    width: 25rem;
+    height: 25rem;
+    background-color: #37AFE1;
+    border-radius: 9px;
+}
+.section-sdlc .icon-box .icon{
+    font-family: 'Noto Emoji';
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.section-sdlc .icon-box p{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+.section-sdlc .icon-box a:link, a:visited{
+    padding: 1.2rem 3.2rem;
+    background-color: #fff;
+    border-radius: 9px;
+    text-decoration: none;
+    color: #0b232d;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: all 0.3s;
+}
+.section-sdlc .icon-box a:hover, a:active{
+    background-color: #0b232d;
+    color: #fff;
+}
+.section-sdlc-sub{
+    display: flex;
+    gap: 9.6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-sdlc-sub .sdlc-sub-img-box img{
+    width: 100%;
+    border-radius: 9px;
+}
+.section-sdlc-sub .sdlc-sub-text-box p{
+    margin-bottom: 2.4rem;
+}
+
+.profile{
+    display: flex;
+    gap: 4.8rem;
+    background-color: #ebf7fc;
+    padding: 4.8rem;
+    border-radius: 9px;
+    margin-bottom: 4.8rem;
+    align-items: center;
+}
+.profile img{
+    max-width: 35%;
+    border-radius: 9px;
+}
+.profile p{
+    margin-bottom: 1.2rem;
+}
